@@ -19,6 +19,7 @@ export function ThemedText({
 
   return (
     <Text
+      className="mt-8"
       style={[
         { color },
         type === 'default' ? styles.default : undefined,
